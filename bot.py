@@ -29,7 +29,7 @@ async def on_ready():
     description="Guess the song from the lyrics. Requires spotify oauth connection.",
 )
 async def guess(interaction: discord.Interaction):
-    await interaction.response.send_message("To be implemented...")
+    await interaction.response.send_message("TODO: implement.")
 
 
 bot.run(TOKEN)
